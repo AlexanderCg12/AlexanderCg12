@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Motores en Automóviles</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        nav {
+            background: #34495e;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        
+        nav a:hover {
+            color: #f39c12;
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        
+        section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .motor-card {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .motor-card div {
+            flex: 1;
+            min-width: 250px;
+            padding: 15px;
+            background: #ecf0f1;
+            border-radius: 8px;
+        }
+        
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 20px;
+        }
+        
+        button {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        
+        button:hover {
+            background: #c0392b;
+        }
+        
+        #comparacion {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tipos de Motores en Automóviles</h1>
+        <p>Descubre cómo funcionan los diferentes motores y sus características.</p>
+    </header>
+    
+    <nav>
+        <a href="#gasolina">Motores de Gasolina</a>
+        <a href="#diesel">Motores Diésel</a>
+        <a href="#electrico">Motores Eléctricos</a>
+        <a href="#hibrido">Híbridos</a>
+        <a href="#comparacion">Comparación</a>
+    </nav>
+    
+    <main>
+        <section id="gasolina">
+            <h2>Motores de Gasolina</h2>
+            <img src="https://www.motor.es/fotos-noticias/2023/05/motor-gasolina-turbo-202348171-1656684290_1.jpg" alt="Motor de gasolina">
+            <p>Los motores de gasolina funcionan mediante la combustión de una mezcla de aire y gasolina. Son los más comunes en automóviles por su rendimiento y suavidad.</p>
+            <div class="motor-card">
+                <div>
+                    <h3>Ventajas</h3>
+                    <ul>
+                        <li>Mayor potencia en altas RPM.</li>
+                        <li>Más silenciosos que los diésel.</li>
+                        <li>Más baratos de mantener.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Desventajas</h3>
+                    <ul>
+                        <li>Menor eficiencia en consumo.</li>
+                        <li>Mayor emisión de CO2.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="diesel">
+            <h2>Motores Diésel</h2>
+            <img src="https://www.autonocion.com/wp-content/uploads/2022/01/motor-diesel.jpg" alt="Motor diésel">
+            <p>Los motores diésel utilizan combustible diésel y tienen una mayor eficiencia térmica, ideales para vehículos pesados y largas distancias.</p>
+            <div class="motor-card">
+                <div>
+                    <h3>Ventajas</h3>
+                    <ul>
+                        <li>Mayor torque a bajas RPM.</li>
+                        <li>Menor consumo de combustible.</li>
+                        <li>Durabilidad prolongada.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Desventajas</h3>
+                    <ul>
+                        <li>Más ruidosos y vibrantes.</li>
+                        <li>Emisiones de NOx más altas.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="electrico">
+            <h2>Motores Eléctricos</h2>
+            <img src="https://www.tesla.com/sites/default/files/images/cybertruck/hero/cybertruck-motor.jpg" alt="Motor eléctrico">
+            <p>Los motores eléctricos funcionan con baterías recargables, ofreciendo cero emisiones y un rendimiento instantáneo.</p>
+            <div class="motor-card">
+                <div>
+                    <h3>Ventajas</h3>
+                    <ul>
+                        <li>Cero emisiones contaminantes.</li>
+                        <li>Mantenimiento mínimo.</li>
+                        <li>Mayor eficiencia energética.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Desventajas</h3>
+                    <ul>
+                        <li>Autonomía limitada.</li>
+                        <li>Tiempos de recarga largos.</li>
+                        <li>Precio inicial elevado.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="hibrido">
+            <h2>Motores Híbridos</h2>
+            <img src="https://www.toyota.com/wp-content/uploads/2021/07/2022_Tundra_i-FORCE_MAX_Hybrid_Engine.jpg" alt="Motor híbrido">
+            <p>Los híbridos combinan un motor de combustión interna con uno eléctrico, optimizando el consumo y reduciendo emisiones.</p>
+            <div class="motor-card">
+                <div>
+                    <h3>Ventajas</h3>
+                    <ul>
+                        <li>Menor consumo de combustible.</li>
+                        <li>Reducción de emisiones.</li>
+                        <li>No dependen solo de carga eléctrica.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Desventajas</h3>
+                    <ul>
+                        <li>Precio más alto que los convencionales.</li>
+                        <li>Baterías con vida útil limitada.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="comparacion">
+            <h2>Comparación de Motores</h2>
+            <table border="1" style="width:100%; border-collapse: collapse;">
+                <tr>
+                    <th>Tipo</th>
+                    <th>Consumo</th>
+                    <th>Potencia</th>
+                    <th>Emisiones</th>
+                </tr>
+                <tr>
+                    <td>Gasolina</td>
+                    <td>Alto</td>
+                    <td>Alta en altas RPM</td>
+                    <td>Moderadas</td>
+                </tr>
+                <tr>
+                    <td>Diésel</td>
+                    <td>Bajo</td>
+                    <td>Alto torque en bajas RPM</td>
+                    <td>NOx altas</td>
+                </tr>
+                <tr>
+                    <td>Eléctrico</td>
+                    <td>Muy bajo</td>
+                    <td>Instantánea</td>
+                    <td>Cero</td>
+                </tr>
+                <tr>
+                    <td>Híbrido</td>
+                    <td>Bajo</td>
+                    <td>Combinada</td>
+                    <td>Bajas</td>
+                </tr>
+            </table>
+            <button id="toggleButton">Mostrar Resumen</button>
+            <p id="resumen" style="display:none;">En conclusión, cada tipo de motor tiene sus ventajas y desventajas. La elección depende del uso que le des al vehículo.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Tipos de Motores en Automóviles | Diseñado con HTML, CSS y JavaScript</p>
+    </footer>
+    
+    <script>
+        // Botón interactivo
+        document.getElementById('toggleButton').addEventListener('click', function() {
+            const resumen = document.getElementById('resumen');
+            if (resumen.style.display === 'none') {
+                resumen.style.display = 'block';
+                this.textContent = 'Ocultar Resumen';
+            } else {
+                resumen.style.display = 'none';
+                this.textContent = 'Mostrar Resumen';
+            }
+        });
+    </script>
+</body>
+</html>
